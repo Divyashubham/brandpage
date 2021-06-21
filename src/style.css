@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0;
+}
+.list {
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.container-box {
+  display: flex;
+}
+
+.flexclass {
+  display: flex;
+  justify-content: space-between;
+}
+.flexcenter {
+  border: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxclass {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.square {
+  width: 45px;
+  height: 45px;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.square1 {
+  list-style: none;
+}
+
+.square p {
+  margin-top: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+}
